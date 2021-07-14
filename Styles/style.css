@@ -133,7 +133,6 @@ footer p{
 /* media queries */
 /* Mobile Devices */
 @media only screen and (max-width:688px) {
-    
     .Copa-America-Football{
         width: 100%;
     }
@@ -157,19 +156,8 @@ footer p{
         flex-direction: column;
     }
         
+
+
 }
-/* tablet devices */
-@media only screen and (min-width: 689) and (max-width:992px) {
-    .container{
-        width: 100%;
-    }
-    .players{
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .player{
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
     
-}
+    
