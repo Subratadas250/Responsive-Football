@@ -1,0 +1,82 @@
+/* Fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    background: #FFFFFF;
+    }
+
+    /* Section # 1 */
+
+    .Copa-America-Football{
+        display: flex;  
+        background:#2D25A0;      
+    }
+    .football-tittle{
+        width: 50%;
+        margin-top: 207px;
+        margin-left: 156px;
+    }
+    .football-tittle .web-link{
+        width: 485px;
+    }
+
+    .link-button{
+        font-size: 16px;
+        height: 24px;
+        width: 88px;
+    }
+
+    
+        
+   
+
+      
+    .banner{
+        width: 50%;
+    }  
+
+    
+    .banner img{
+        width: 556.01px;
+        height: 438px;
+        margin-top: 150px;
+        margin-right: 141px;
+        margin-bottom: 89px;
+    }
+
+
+
+
+
+
+
+/* section # 2 */
+.container{
+    height: 2047px;
+    width: 1440px;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    margin-left: 180px;
+    margin-right: 210px;
+
+}
+.player{
+    width: 330px;
+    height: 474px;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    margin-top: 70px;
+    margin-right: 30px;
+    margin-bottom: 27px;
+}
+.player img{
+   width: 330px;  
+
+}
+.player-info{
+    font-size: 12px;
+}
