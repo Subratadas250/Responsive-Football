@@ -116,10 +116,10 @@ footer img{
     
 }
 footer .social-icons{
-    display: flex;
-    background-color:  light gray;
-    padding: 15px 15px;
+    display: flex;    
     justify-content: center;
+    align-items: center;
+   
     
 
    }
@@ -127,7 +127,49 @@ footer .social-icons{
 footer p{
     margin-left: 123.94px;
     height: 32px;
-    margin-bottom: 63px;
+    margin-bottom: 63px;      
+}
+
+/* media queries */
+/* Mobile Devices */
+@media only screen and (max-width:688px) {
     
+    .Copa-America-Football{
+        width: 100%;
+    }
+    
+    
+    .football-tittle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .banner{
+        display: flex;
+        flex-direction: column;
+    }
+    .players {
+        grid-template-columns: repeat(1,1fr);
+
+          }
+    .player{
+        flex-direction: column;
+    }
+        
+}
+/* tablet devices */
+@media only screen and (min-width: 689) and (max-width:992px) {
+    .container{
+        width: 100%;
+    }
+    .players{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .player{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
     
 }
