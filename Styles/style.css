@@ -102,9 +102,7 @@ body{
 }
 
  /* footer style */
- footer{
-    width: 483.87px;
-    height: 213px;
+ footer{    
     margin-top: 158px;
     margin-left: 475px;
     margin-right: 481.13px;
@@ -119,16 +117,14 @@ footer img{
 footer .social-icons{
     display: flex;
     justify-content: center;
-    padding: 15px 15px;
     margin-left: 156.94px;
-    margin-right: 156.94px;   
-    width: 170px;
-    height: 32px;
-   
+    margin-right: 156.94px;     
+   }
 
-}
 footer p{
     margin-left: 123.94px;
     height: 32px;
+    margin-bottom: 63px;
+    
     
 }
